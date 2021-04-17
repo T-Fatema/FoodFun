@@ -1,0 +1,543 @@
+/*--------fonts----------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,700;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #777;
+	line-height: 1.5;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+}
+
+.section-padding{
+	padding-top: 130px;
+}
+
+
+
+/*navbar*/
+
+
+.navbar{
+	background-color: #fff;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+}
+
+.logo img{
+	width: 180px;
+	margin-left: 25px;
+}
+
+
+.navbar.navbar-shirnk{
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+	background-color: #fff;
+	padding: 10px 0;
+}
+
+.navbar .nav-item{
+	margin-left: 40px;
+	float: right;
+}
+.navbar .nav-item .nav-link{
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 5px 0;
+	font-weight: 600;
+	position: relative;
+}
+
+
+
+/*--navbar End---*/
+
+
+/*-----home----*/
+
+
+.banner-area{
+	padding: 400px 0 350px;
+	background-color: #b0b0b0;
+	height: 100vh;
+	background-image: url(../images/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-area .prime-color{
+	color: #ffb606;
+}
+
+.banner-area h1{
+	color: #fff;
+	font-family: "Playfair Display",serif;
+	font-size: 60px !important;
+	font-weight: 700;
+	line-height: 1.2;
+	font-style: italic;
+}
+
+.banner-area .style-change{
+	font-style: normal;
+}
+
+
+.banner-area h6{
+	margin-bottom: .5rem;
+	color: #fff;
+	font-size: 20px !important;
+	font-family: "Roboto",sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+/*----------welcome section--------*/
+
+.welcome-area .welcome-img{
+	padding-left: 15%;
+}
+
+.welcome-area .welcome-text{
+	padding-right: 45%;
+}
+
+.welcome-area .style-change{
+	color: #ffb606;
+	font-style: italic;
+}
+.welcome-area h3{
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 400;
+}
+
+.welcome-area p{
+	margin-top: 0;
+	margin-bottom: 2rem;
+	font-size: 18px;
+}
+
+.template-btn {
+	color: #131230;
+	background: #ffb606;
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	border: 1px solid transparent;
+	display: inline-block;
+	padding: 12px 30px !important;
+	transition: all 0.5s;
+}
+
+.template-btn:hover{
+	background: transparent;
+	border: 1px solid #ffb606;
+	color: #ffb606;
+}
+
+/*--------food---------*/
+
+.food-area{
+	background-image: url(../images/food-bg.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	position: relative;
+
+}
+
+.section-top{
+	margin-bottom: 80px;
+}
+
+.food-area h3{
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 700;
+}
+
+.food-area .style-change{
+	color: #ffb606;
+	font-style: italic;
+}
+
+.food-area p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.food-area .food-img{
+	overflow: hidden;
+}
+
+
+.food-area .food-img img{
+	transition: all 0.5s;
+	width: 660px; 
+}
+
+.food-area .single-food:hover .food-img img{
+	transform: scale(1.1);
+
+}
+
+.food-area .food-content {
+	padding: 30px;
+	background: #f9f9ff;
+	transition: all 0.5s;
+}
+
+.food-area .single-food:hover .food-content{
+	background: #ffb606;
+	color: #fff;
+}
+
+.food-area .single-food:hover .food-content h5{ 
+	color: #fff;
+}
+
+.food-area .single-food:hover .food-content span{
+	color: #fff;
+}
+
+.food-area h5 {
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	text-transform: capitalize;
+	font-size: 22px !important;
+	font-weight: 700;
+}
+
+.food-area .food-content .style-change {
+	color: #ffb606;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	transition: .5s;
+}
+
+.single-food{
+	margin-left: 10px;
+	margin-bottom: 35px;
+}
+
+
+
+/*------reservartion-------*/
+
+
+.reservation-area {
+	background-image: url(../images/reservation-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 130px;
+}
+
+.reservation-area h2{
+	color: #fff;
+	font-family: "Playfair Display",serif;
+	font-size: 42px !important;
+	font-weight: 700;
+}
+
+.reservation-area h4 {
+	color: #fff;
+	font-family: "Roboto",sans-serif;
+	font-size: 24px !important;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+/*desehe area */
+
+.dishes-area{
+	padding-bottom: 130px;
+}
+
+.dishes-area img{
+	max-width: 100%;
+}
+
+.dishes-area h3{
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 700;
+}
+
+.dishes-area .style-change{
+	color: #ffb606;
+}
+
+.dishes-area h1{
+	position: relative;
+	color: #131230;
+	font-style: inherit;
+	font-family: "Playfair Display",serif;
+	font-size: 80px !important;
+	font-weight: 700;
+}
+
+.dishes-area h1:after{
+	content: '';
+	position: absolute;
+	top: 55px;
+	left: 90px;
+	width: 200px;
+	height: 1px;
+	background: #131230;
+}
+
+.dishes-area .dishes-text{
+	padding-left: 90px;
+}
+
+.dishes-area h3{
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 700;
+}
+
+.dishes-area h3 span{
+	color: #ffb606;
+}
+
+.dishes-area .style-change{
+	font-family: "Roboto",sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	display: block;
+}
+
+.template-btn3 {
+	color: #131230;
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+}
+
+/*----testimonial---*/
+
+.section-padding1{
+	padding: 130px 0 200px;
+}
+
+.testimonial-area{
+	background-image: url(../images/testimonial-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.testimonial-area:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1,7,16,0.8);
+	z-index: -1;
+}
+
+.testimonial-area h3{
+	color: #ffffff;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 400;
+}
+
+.testimonial-area p{
+	color: #fff;
+}
+
+
+/*----update---*/
+
+.update-area h3{
+	color: #000;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 700;
+}
+
+.update-area span{
+	color: #ffb606;
+}
+
+
+.update-area .template-btn8:hover{
+	color: #ffb606;
+}
+
+.template-btn8{
+	color: #131230;
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	transition: 0.3s ease;
+}
+
+.update-area .single-food .food-content {
+	padding: 30px 15px;
+	background: #f9f9ff;
+	transition: .5s;
+}
+
+
+.update-area h5{
+	color: #131230;
+	font-family: "Playfair Display",serif;
+	text-transform: capitalize;
+	font-size: 20px !important;
+	font-weight: 700;
+}
+
+.update-area p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.update-area i{
+	color: #666;
+}
+
+.update-area .food-img img{
+	width: 660px;
+	overflow: hidden;
+}
+
+
+/*----table---*/
+
+.table-area {
+	background-image: url(../images/table-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 130px;
+	margin-top: 130px;
+	border: none;
+}
+
+.table-area:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1,7,16,0.7);
+	z-index: -1;
+}
+
+.section-top8{
+	margin-bottom: 80px;
+}
+
+.table-area h3{
+	color: #fff;
+	font-family: "Playfair Display",serif;
+	font-size: 36px !important;
+	font-weight: 700;
+}
+
+.table-area span{
+	color: #ffb606;
+}
+
+.table-area .input-group {
+	width: 30.33%;
+	float: left;
+	overflow: hidden;
+	margin: 0 1.5%;
+}
+
+.table-area .input-group-text {
+	background: #fff;
+	padding: 14px 10px;
+}
+
+.table-area i{
+	color: #666;
+}
+
+
+/*----footer---*/
+
+.footer-widget .single-widget1 {
+	padding-right: 30px;
+}
+
+.footer-widget{
+	background: #131230;
+	padding-bottom: 130px;
+}
+
+.footer-widget .single-widget h5 {
+	color: #ffb606;
+	font-family: "Playfair Display",serif;
+	text-transform: capitalize;
+	font-size: 25px !important;
+	font-weight: 700;
+}
+
+.footer-copyright {
+	padding: 30px 0;
+	background: #0d0d27;
+	color: #fff;
+}
+
+.footer-copyright .social-icons{
+	float: right;
+}
+
+.footer-copyright ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-copyright ul li{
+	float: left;
+	margin-left: 23px;
+}
+
+.footer-copyright ul li i{
+	transition: all 0.3s;
+}
+
+.footer-copyright ul li i:hover{
+	color: #ffb606;
+}
+
+.footer-copyright .no-margin{
+	text-transform: capitalize;
+}
